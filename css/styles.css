@@ -1,0 +1,40 @@
+
+
+body {
+    padding: 0;
+    margin: 0;
+
+    height: 100vh;
+    width: 100vw;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.boton {
+    height: 2.5em;
+    width: 8em;
+
+    background-color: blueviolet;
+
+    color: white;
+    font-weight: bold;
+
+    border-radius: 1em;
+
+    transition: 0.3s;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    cursor: pointer;
+}
+
+.boton:hover {
+
+    transition: 0.3s;
+
+    background-color: rgb(102, 0, 146);
+}
