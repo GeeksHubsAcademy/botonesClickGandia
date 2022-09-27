@@ -1,4 +1,8 @@
+let variableGlobal = 100;
+let carrito = document.getElementById("carrito");
 
-const pulsador = (amigo) => {
-    console.log("holaaaa ", amigo);
+const vaciar = () => {
+    variableGlobal = 0;
+
+    carrito.innerHTML = `${variableGlobal}`;
 }
